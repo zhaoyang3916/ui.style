@@ -1,0 +1,32 @@
+{
+  "name": "ui.style",
+  "version": "2.0.0",
+  "authors": [
+    "yang zhao"
+  ],
+  "description": "moudl css js",
+  "main": [
+    "ui.style.css",
+    "ui.style.js"
+  ],
+  "keywords": [
+    "layout",
+    "style"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "0.3.2",
+    "jquery": "1.9.1",
+    "bootstrap": "3.3.4",
+    "metisMenu": "2.0.2",
+    "fontawesome": "4.3.0"
+  },
+  "homepage": "https://github.com/zhaoyang3916/ui.style"
+}
