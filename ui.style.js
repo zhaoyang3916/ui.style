@@ -1,13 +1,13 @@
-angular.module('et.style', []);
-angular.module('et.style').directive('etstyle', etstyle);
-angular.module('et.style').directive('fixed', fixed);
-angular.module('et.style').directive('full', full);
-angular.module('et.style').directive('canvas', canvas);
-angular.module('et.style').directive('simple', simple);
-angular.module('et.style').directive('ettabs', ettabs);
-angular.module('et.style').directive('metisMenus', metisMenus);
-angular.module('et.style').directive('pageTitle', pageTitle);
-angular.module('et.style').directive('dialogUp', dialogUp);
+angular.module('ui.style', []);
+angular.module('ui.style').directive('etstyle', etstyle);
+angular.module('ui.style').directive('fixed', fixed);
+angular.module('ui.style').directive('full', full);
+angular.module('ui.style').directive('canvas', canvas);
+angular.module('ui.style').directive('simple', simple);
+angular.module('ui.style').directive('ettabs', ettabs);
+angular.module('ui.style').directive('metisMenus', metisMenus);
+angular.module('ui.style').directive('pageTitle', pageTitle);
+angular.module('ui.style').directive('dialogUp', dialogUp);
 
 function SmoothlyMenu() {
   if (!$('body').hasClass('mini-navbar') || $('body').hasClass('body-small')) {
